@@ -7,8 +7,8 @@ Run `plot.ipynb` to generate graphs for the template taste session. Requires pyt
 
 ## How to create a new tasting session
 
-1. Copy `data/template/` your own folder `data/<my-tasting-session>`
-2. Edit `data/<my-tasting-session>/subjects.json` to represent the subjects to be evaluated 
-3. (Host your tasting session and collect testers evaluation)
-4. Edit `data/<my-tasting-session>/scores.csv` to represent the subjects to be evaluated
-5. Edit `plot.ipynb` to take `<my-tasting-session>` as input instead, and run all cells
+1. Copy `data/template/` into your own folder `data/<my-tasting-session>`.
+2. Edit `subjects.json` to represent the subjects to be evaluated
+3. (Host your tasting session and have everyone note their scores)
+4. Edit `scores.csv` to represent the testers' scores
+5. Edit `plot.ipynb` to take `<my-tasting-session>` as input and run all cells
